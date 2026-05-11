@@ -154,16 +154,9 @@ python3 main.py
 
 ```
 virtual-mouse/
-├── virtual_mouse_complete.py    # Main application
+├── main.py                       # Main application
 ├── requirements.txt              # Python dependencies
-├── README.md                      # This file
-├── SETUP_GUIDE.md                # Detailed setup instructions
-├── ADVANCED_GUIDE.md             # Advanced features & customization
-├── LICENSE                        # MIT License
-└── docs/
-    ├── GESTURES.md               # Detailed gesture guide
-    ├── TROUBLESHOOTING.md        # Common issues & solutions
-    └── API.md                     # API documentation
+├── README.md                     # This file
 ```
 
 ---
@@ -496,28 +489,6 @@ Instructions visible on screen
 FPS counter in top right
 Hand detection status
 ```
-
----
-
-## 🗺️ Roadmap
-
-### Version 1.0 (Current)
-- ✅ Basic cursor control
-- ✅ Pinch click detection
-- ✅ Scroll support
-- ✅ Windows & Linux support
-
-### Version 1.5 (In Progress)
-- 🔄 Right-click support
-- 🔄 Double-click detection
-- 🔄 Drag & drop
-- 🔄 Settings GUI
-
-### Version 2.0 (Planned)
-- 📋 Multi-hand support
-- 📋 Virtual keyboard
-- 📋 Mobile companion app
-- 📋 Eye-tracking integration
 
 ---
 
