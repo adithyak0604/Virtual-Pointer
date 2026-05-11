@@ -70,7 +70,7 @@ Perfect for:
 #### Windows
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/virtual-mouse.git
+git clone https://github.com/adithyak0604/Virtual-Pointer.git
 cd virtual-mouse
 
 # Install dependencies
@@ -87,7 +87,7 @@ sudo apt update
 sudo apt install xdotool xrandr libgl1-mesa-glx libglib2.0-0
 
 # Clone the repository
-git clone https://github.com/yourusername/virtual-mouse.git
+git clone https://github.com/adithyak0604/Virtual-Pointer.git
 cd virtual-mouse
 
 # Install Python dependencies
@@ -303,8 +303,6 @@ python virtual_mouse_complete.py  # Edit code to use camera_index=1
 sudo apt install xdotool
 ```
 
-For more troubleshooting, see [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)
-
 ---
 
 ## 🎓 How It Works
@@ -393,7 +391,7 @@ We welcome contributions! Here's how you can help:
 
 ### Getting Started
 1. Fork the repository
-2. Clone your fork: `git clone https://github.com/yourusername/virtual-mouse.git`
+2. Clone your fork: `git clone https://github.com/adithyak0604/Virtual-Pointer.git`
 3. Create a feature branch: `git checkout -b feature/amazing-feature`
 4. Make your changes
 5. Commit: `git commit -m 'Add amazing feature'`
@@ -443,10 +441,8 @@ MIT License gives you:
 ## 📞 Support
 
 ### Getting Help
-1. **Check [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)** - Solutions to common issues
-2. **Read the [ADVANCED_GUIDE.md](ADVANCED_GUIDE.md)** - Customization help
-3. **Search existing [Issues](../../issues)** - Already solved problems
-4. **Open a new [Issue](../../issues/new)** - Describe your problem clearly
+1. **Search existing [Issues](../../issues)** - Already solved problems
+2. **Open a new [Issue](../../issues/new)** - Describe your problem clearly
 
 ### Reporting Bugs
 Please include:
@@ -461,15 +457,6 @@ Describe:
 - What you want to do
 - Why it would be useful
 - How you envision it working
-
----
-
-## 📈 Project Stats
-
-![GitHub Stars](https://img.shields.io/github/stars/yourusername/virtual-mouse?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/yourusername/virtual-mouse?style=social)
-![GitHub Issues](https://img.shields.io/github/issues/yourusername/virtual-mouse)
-![GitHub License](https://img.shields.io/github/license/yourusername/virtual-mouse)
 
 ---
 
@@ -522,8 +509,7 @@ If you find this project useful, please consider giving it a star! ⭐
 ## 📧 Contact
 
 - **Issues**: GitHub Issues (preferred)
-- **Email**: youremail@example.com
-- **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
+- **Email**: <adithyakrishnatk0604@gmail.com>
 
 ---
 
@@ -531,14 +517,10 @@ If you find this project useful, please consider giving it a star! ⭐
 
 Thank you for checking out Virtual Mouse! We hope you enjoy using it as much as we enjoyed building it.
 
-**Made with ❤️ by [Your Name/Team]**
-
 ---
 
 <div align="center">
 
 ### If you found this helpful, please consider starring the repository! ⭐
-
-[⬆ Back to top](#-virtual-mouse---hand-gesture-control)
 
 </div>
