@@ -63,47 +63,6 @@ Perfect for:
 
 ---
 
-## 🚀 Quick Start
-
-### Installation (60 seconds)
-
-#### Windows
-```bash
-# Clone the repository
-git clone https://github.com/adithyak0604/Virtual-Pointer.git
-cd virtual-mouse
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the application
-python main.py
-```
-
-#### Linux
-```bash
-# Install system dependencies
-sudo apt update
-sudo apt install xdotool xrandr libgl1-mesa-glx libglib2.0-0
-
-# Clone the repository
-git clone https://github.com/adithyak0604/Virtual-Pointer.git
-cd virtual-mouse
-
-# Install Python dependencies
-pip3 install -r requirements.txt
-
-# Run the application
-python3 main.py
-```
-
-### First Run
-1. Ensure your webcam is connected and working
-2. Run the script - a window showing your webcam feed will appear
-3. Position your hand in front of the camera
-4. You should see your hand skeleton overlaid on the video
-5. Move your index finger to control the cursor!
-
 ---
 
 ## 📖 Usage Guide
@@ -151,7 +110,7 @@ python3 main.py
 ## 📁 Project Structure
 
 ```
-virtual-mouse/
+Virtual-Pointer/
 ├── main.py                       # Main application
 ├── requirements.txt              # Python dependencies
 ├── README.md                     # This file
@@ -174,8 +133,8 @@ python --version
 
 **Step 3: Clone Repository**
 ```bash
-git clone https://github.com/yourusername/virtual-mouse.git
-cd virtual-mouse
+git clone https://github.com/adithyak0604/Virtual-Pointer.git
+cd Virtual-Pointer
 ```
 
 **Step 4: Install Dependencies**
@@ -212,6 +171,12 @@ pip3 install -r requirements.txt
 ```bash
 python3 main.py
 ```
+### First Run
+1. Ensure your webcam is connected and working
+2. Run the script - a window showing your webcam feed will appear
+3. Position your hand in front of the camera
+4. You should see your hand skeleton overlaid on the video
+5. Move your index finger to control the cursor!
 
 ### Verify Installation
 Once running, you should see:
