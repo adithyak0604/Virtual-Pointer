@@ -2,8 +2,6 @@
 
 **A real-time hand gesture recognition system for controlling your PC mouse using just your webcam**
 
-[Quick Start](#quick-start) • [Features](#features) • [Installation](#installation) • [Usage](#usage) • [Documentation](#documentation) • [Contributing](#contributing)
-
 </div>
 
 ---
