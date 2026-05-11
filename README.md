@@ -63,8 +63,6 @@ Perfect for:
 
 ---
 
----
-
 ## 📖 Usage Guide
 
 ### Hand Gestures
