@@ -79,7 +79,7 @@ cd virtual-mouse
 pip install -r requirements.txt
 
 # Run the application
-python virtual_mouse_complete.py
+python main.py
 ```
 
 #### Linux
@@ -96,7 +96,7 @@ cd virtual-mouse
 pip3 install -r requirements.txt
 
 # Run the application
-python3 virtual_mouse_complete.py
+python3 main.py
 ```
 
 ### First Run
@@ -119,11 +119,6 @@ python3 virtual_mouse_complete.py
 - Keep your hand 30-60cm from the camera for best tracking
 - The cursor will be smoothed automatically to reduce jitter
 
-```
-Your Hand          →    Cursor Position
-   👆                      ➡️ (follows)
-```
-
 #### 2️⃣ Left Click
 **Gesture:** Pinch your thumb and index finger together
 
@@ -131,11 +126,6 @@ Your Hand          →    Cursor Position
 - Hold the pinch for a brief moment (0.3s cooldown between clicks)
 - The click will register when the distance is < 50px
 - Release to stop clicking
-
-```
-Before:   👆 👍         After:    🤏
-                        Result:   Click! 🖱️
-```
 
 #### 3️⃣ Scrolling
 **Gesture:** Make a "V" shape with your index and middle fingers
@@ -145,12 +135,6 @@ Before:   👆 👍         After:    🤏
 - Move your middle finger UP to scroll up
 - Move your middle finger DOWN to scroll down
 - Each gesture scrolls by 3 units
-
-```
-Peace Sign        Move Up        Move Down
-    ✌️      →       🖐️↑      or    🖐️↓
-                  Scroll Up      Scroll Down
-```
 
 ### Keyboard Controls
 - **Q** - Quit the application
@@ -210,7 +194,7 @@ pip install -r requirements.txt
 
 **Step 5: Run**
 ```bash
-python virtual_mouse_complete.py
+python main.py
 ```
 
 ### For Linux Users
@@ -235,7 +219,7 @@ pip3 install -r requirements.txt
 
 **Step 4: Run**
 ```bash
-python3 virtual_mouse_complete.py
+python3 main.py
 ```
 
 ### Verify Installation
@@ -251,7 +235,7 @@ Once running, you should see:
 
 ### Adjusting Sensitivity
 
-Edit `virtual_mouse_complete.py` and modify these values:
+Edit `main.py` and modify these values:
 
 ```python
 # In __init__ method:
@@ -329,16 +313,6 @@ sudo apt install xdotool
 ```
 
 For more troubleshooting, see [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)
-
----
-
-## 📚 Documentation
-
-- **[SETUP_GUIDE.md](SETUP_GUIDE.md)** - Detailed installation & setup
-- **[ADVANCED_GUIDE.md](ADVANCED_GUIDE.md)** - Advanced features & customization
-- **[GESTURES.md](docs/GESTURES.md)** - Detailed gesture documentation
-- **[TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)** - Common issues & solutions
-- **[API.md](docs/API.md)** - API documentation for developers
 
 ---
 
