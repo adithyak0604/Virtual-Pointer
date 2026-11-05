@@ -142,11 +142,11 @@ pip install -r requirements.txt
 
 **Step 5: Run**
 ```bash
-python main.py   (For smaller resolution; better FPS)
+python main.py   (For smaller resolution - better FPS)
 ```
 
 ```bash
-python main_fullscreen.py   (For fuller resolution; lower FPS)
+python main_fullscreen.py   (For fuller resolution - lower FPS)
 ```
 
 ### For Linux Users
@@ -171,11 +171,11 @@ pip3 install -r requirements.txt
 
 **Step 4: Run**
 ```bash
-python3 main.py    (For smaller resolution; better FPS)
+python3 main.py    (For smaller resolution - better FPS)
 ```
 
 ```bash
-python main_fullscreen.py   (For fuller resolution; lower FPS)
+python main_fullscreen.py   (For fuller resolution - lower FPS)
 ```
 
 ### First Run
