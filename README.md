@@ -142,7 +142,11 @@ pip install -r requirements.txt
 
 **Step 5: Run**
 ```bash
-python main.py
+python main.py   (For smaller resolution; better FPS)
+```
+
+```bash
+python main_fullscreen.py   (For fuller resolution; lower FPS)
 ```
 
 ### For Linux Users
@@ -167,8 +171,13 @@ pip3 install -r requirements.txt
 
 **Step 4: Run**
 ```bash
-python3 main.py
+python3 main.py    (For smaller resolution; better FPS)
 ```
+
+```bash
+python main_fullscreen.py   (For fuller resolution; lower FPS)
+```
+
 ### First Run
 1. Ensure your webcam is connected and working
 2. Run the script - a window showing your webcam feed will appear
