@@ -286,8 +286,8 @@ class HandGestureMouseController:
             return
         
         # Set camera properties for better performance
-        cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
-        cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
+        cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
+        cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
         cap.set(cv2.CAP_PROP_FPS, 30)
         
         print("Virtual Mouse Controller Running")
@@ -321,6 +321,10 @@ class HandGestureMouseController:
                 # Check for exit
                 key = cv2.waitKey(1) & 0xFF
                 if key == ord('q') or key == ord('Q'):
+                    is_fullscreen = not is_fullscreen
+                    mode = cv2.WINDOW_FULLSCREEN if is_fullscreen else cv2.WINDOW_NORMAL
+                    cv2.setWindowProperty(window_name, cv2.WND_PROP_FULLSCREEN, mode)
+                elif key == ord('q') or key == ord('Q'):
                     print("\nShutting down...")
                     break
         
