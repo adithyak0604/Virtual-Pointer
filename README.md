@@ -2,8 +2,6 @@
 
 **A real-time hand gesture recognition system for controlling your PC mouse using just your webcam**
 
-[Quick Start](#quick-start) • [Features](#features) • [Installation](#installation) • [Usage](#usage) • [Documentation](#documentation) • [Contributing](#contributing)
-
 </div>
 
 ---
@@ -65,49 +63,6 @@ Perfect for:
 
 ---
 
-## 🚀 Quick Start
-
-### Installation (60 seconds)
-
-#### Windows
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/virtual-mouse.git
-cd virtual-mouse
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the application
-python main.py
-```
-
-#### Linux
-```bash
-# Install system dependencies
-sudo apt update
-sudo apt install xdotool xrandr libgl1-mesa-glx libglib2.0-0
-
-# Clone the repository
-git clone https://github.com/yourusername/virtual-mouse.git
-cd virtual-mouse
-
-# Install Python dependencies
-pip3 install -r requirements.txt
-
-# Run the application
-python3 main.py
-```
-
-### First Run
-1. Ensure your webcam is connected and working
-2. Run the script - a window showing your webcam feed will appear
-3. Position your hand in front of the camera
-4. You should see your hand skeleton overlaid on the video
-5. Move your index finger to control the cursor!
-
----
-
 ## 📖 Usage Guide
 
 ### Hand Gestures
@@ -153,7 +108,7 @@ python3 main.py
 ## 📁 Project Structure
 
 ```
-virtual-mouse/
+Virtual-Pointer/
 ├── main.py                       # Main application
 ├── requirements.txt              # Python dependencies
 ├── README.md                     # This file
@@ -176,8 +131,8 @@ python --version
 
 **Step 3: Clone Repository**
 ```bash
-git clone https://github.com/yourusername/virtual-mouse.git
-cd virtual-mouse
+git clone https://github.com/adithyak0604/Virtual-Pointer.git
+cd Virtual-Pointer
 ```
 
 **Step 4: Install Dependencies**
@@ -214,6 +169,12 @@ pip3 install -r requirements.txt
 ```bash
 python3 main.py
 ```
+### First Run
+1. Ensure your webcam is connected and working
+2. Run the script - a window showing your webcam feed will appear
+3. Position your hand in front of the camera
+4. You should see your hand skeleton overlaid on the video
+5. Move your index finger to control the cursor!
 
 ### Verify Installation
 Once running, you should see:
@@ -305,54 +266,9 @@ python virtual_mouse_complete.py  # Edit code to use camera_index=1
 sudo apt install xdotool
 ```
 
-For more troubleshooting, see [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)
-
 ---
 
-## 🎓 How It Works
-
-### Architecture
-
-```
-┌─────────────────────────────────────────────────────┐
-│  Webcam Feed                                        │
-└──────────────────┬──────────────────────────────────┘
-                   │
-                   ▼
-┌─────────────────────────────────────────────────────┐
-│  OpenCV (Frame Capture & Processing)                │
-└──────────────────┬──────────────────────────────────┘
-                   │
-                   ▼
-┌─────────────────────────────────────────────────────┐
-│  MediaPipe Hand Detection (21 Landmarks)            │
-└──────────────────┬──────────────────────────────────┘
-                   │
-                   ▼
-┌─────────────────────────────────────────────────────┐
-│  Gesture Recognition & Analysis                     │
-│  • Pinch Detection                                  │
-│  • Peace Sign Detection                             │
-│  • Position Calculation                             │
-└──────────────────┬──────────────────────────────────┘
-                   │
-                   ▼
-┌─────────────────────────────────────────────────────┐
-│  Coordinate Mapping (Camera Space → Screen Space)   │
-└──────────────────┬──────────────────────────────────┘
-                   │
-                   ▼
-┌─────────────────────────────────────────────────────┐
-│  Mouse Control (pyautogui / xdotool)                │
-└──────────────────┬──────────────────────────────────┘
-                   │
-                   ▼
-┌─────────────────────────────────────────────────────┐
-│  System Cursor Movement & Events                    │
-└─────────────────────────────────────────────────────┘
-```
-
-### Technologies Used
+## Technologies Used
 - **MediaPipe** - Google's hand tracking framework (ML-based)
 - **OpenCV** - Computer vision library for image processing
 - **NumPy** - Numerical computations and arrays
@@ -395,7 +311,7 @@ We welcome contributions! Here's how you can help:
 
 ### Getting Started
 1. Fork the repository
-2. Clone your fork: `git clone https://github.com/yourusername/virtual-mouse.git`
+2. Clone your fork: `git clone https://github.com/adithyak0604/Virtual-Pointer.git`
 3. Create a feature branch: `git checkout -b feature/amazing-feature`
 4. Make your changes
 5. Commit: `git commit -m 'Add amazing feature'`
@@ -445,10 +361,8 @@ MIT License gives you:
 ## 📞 Support
 
 ### Getting Help
-1. **Check [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)** - Solutions to common issues
-2. **Read the [ADVANCED_GUIDE.md](ADVANCED_GUIDE.md)** - Customization help
-3. **Search existing [Issues](../../issues)** - Already solved problems
-4. **Open a new [Issue](../../issues/new)** - Describe your problem clearly
+1. **Search existing [Issues](../../issues)** - Already solved problems
+2. **Open a new [Issue](../../issues/new)** - Describe your problem clearly
 
 ### Reporting Bugs
 Please include:
@@ -463,15 +377,6 @@ Describe:
 - What you want to do
 - Why it would be useful
 - How you envision it working
-
----
-
-## 📈 Project Stats
-
-![GitHub Stars](https://img.shields.io/github/stars/yourusername/virtual-mouse?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/yourusername/virtual-mouse?style=social)
-![GitHub Issues](https://img.shields.io/github/issues/yourusername/virtual-mouse)
-![GitHub License](https://img.shields.io/github/license/yourusername/virtual-mouse)
 
 ---
 
@@ -524,8 +429,7 @@ If you find this project useful, please consider giving it a star! ⭐
 ## 📧 Contact
 
 - **Issues**: GitHub Issues (preferred)
-- **Email**: youremail@example.com
-- **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
+- **Email**: <adithyakrishnatk0604@gmail.com>
 
 ---
 
@@ -533,14 +437,10 @@ If you find this project useful, please consider giving it a star! ⭐
 
 Thank you for checking out Virtual Mouse! We hope you enjoy using it as much as we enjoyed building it.
 
-**Made with ❤️ by [Your Name/Team]**
-
 ---
 
 <div align="center">
 
 ### If you found this helpful, please consider starring the repository! ⭐
-
-[⬆ Back to top](#-virtual-mouse---hand-gesture-control)
 
 </div>
